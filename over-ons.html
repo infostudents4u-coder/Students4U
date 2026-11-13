@@ -1,0 +1,45 @@
+<!doctype html><html lang="nl-BE"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07132f"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"><title>Over ons | Students4U</title></head><body><header><div class="wrap nav"><a class="brand" href="index.html"><img src="students4u-logo.png" alt="Students4U — Jouw potentieel, onze begeleiding"></a><button class="menu" aria-label="Menu openen" aria-expanded="false" onclick="const n=document.querySelector('.links');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰</button><nav class="links"><a href="index.html">Home</a><a href="over-ons.html">Over ons</a><a href="aanbod.html">Aanbod & prijzen</a><a href="aanpak.html">Onze aanpak</a><a href="inschrijven.html" class="button">Inschrijven ↗</a></nav></div></header><main><div class="page-hero"><div class="wrap"><div class="crumb">Students4U / Over ons</div><h1>Wie zijn wij?</h1><p>Students4U is een initiatief van studenten die andere leerlingen willen helpen met wiskunde. We leggen de leerstof rustig uit, oefenen samen en nemen tijd voor vragen.</p></div></div>
+<section><div class="wrap two"><div><div class="kicker">Onze missie</div><h2>Jouw potentieel, onze begeleiding.</h2><p style="color:var(--muted);line-height:1.9;font-size:14px">De ene leerling heeft wat meer uitleg nodig dan de andere. Dat is helemaal normaal. We willen dat iedereen vragen kan stellen, fouten durft maken en de leerstof op zijn eigen tempo kan inoefenen.</p><p style="color:var(--muted);line-height:1.9;font-size:14px">We geven wiskundebegeleiding aan leerlingen van het 1ste tot en met het 4de middelbaar. De lessen bestaan uit uitleg, samen oefenen en individuele hulp wanneer dat nodig is.</p></div><div class="panel dark"><h3>Waar we voor staan</h3><ul><li>Begrijpelijke uitleg en een logische opbouw.</li><li>Kleine groepen en aandacht voor individuele vragen.</li><li>Oefenen en verwerken, niet enkel luisteren.</li><li>Vooruitgang opvolgen met toetsmomenten.</li><li>Een positieve leeromgeving waarin vertrouwen groeit.</li></ul></div></div></section>
+<section class="founders-section">
+<div class="wrap">
+  <div class="section-head founders-heading">
+    <div class="kicker">Onze oprichters</div>
+    <h2>Het team achter <span>Students4U</span></h2>
+    <p>Gedreven studenten met een passie voor onderwijs en het begeleiden van andere leerlingen.</p>
+  </div>
+  <div class="founders-showcase">
+    <article class="founder-profile">
+      <div class="founder-photo founder-photo-ilyas"><img src="ilyas-profile.jpg" alt="Profielfoto van Ilyas El Fadili"></div>
+      <h3>Ilyas El Fadili</h3>
+      <span class="founder-role">Oprichter</span>
+      <p>Ik studeer Chemie aan KdG en wil met Students4U mijn kennis en ervaring delen om leerlingen sterker te maken in wiskunde.</p>
+      <a class="founder-phone" href="tel:+32492446019">0492 44 60 19</a>
+    </article>
+    <div class="founder-divider" aria-hidden="true"></div>
+    <article class="founder-profile">
+      <div class="founder-photo founder-photo-edin"><img src="edin-profile.jpg" alt="Profielfoto van Edin Ikeljic"></div>
+      <h3>Edin Ikeljic</h3>
+      <span class="founder-role">Oprichter</span>
+      <p>Ik studeer Bio-ingenieurswetenschappen en wil mijn wetenschappelijke achtergrond inzetten om leerlingen helder en persoonlijk te begeleiden.</p>
+      <a class="founder-phone" href="tel:+32489145985">0489 14 59 85</a>
+    </article>
+  </div>
+  <div class="founders-cta">
+    <div><h2>Leer ons aanbod kennen.</h2><p>Bekijk de inhoud, prijs en praktische informatie van het pakket.</p></div>
+    <a class="button" href="aanbod.html">Aanbod & prijzen ↗</a>
+  </div>
+</div>
+</section>
+</main><footer>
+<div class="wrap foot">
+  <img src="students4u-logo.png" alt="Students4U">
+  <span>Bijles wiskunde · 1ste t.e.m. 4de middelbaar</span>
+  <div class="foot-links"><a href="over-ons.html">Over ons</a><a href="aanbod.html">Aanbod</a><a href="aanpak.html">Onze aanpak</a><a href="inschrijven.html">Inschrijven</a></div>
+</div>
+<div class="wrap contact-footer">
+  <div><strong>Contacteer ons</strong><a href="mailto:info@students4u.be">info@students4u.be</a><a href="https://www.instagram.com/Students.4u/" target="_blank" rel="noopener">Instagram: @Students.4u</a></div>
+  <div><strong>Ilyas El Fadili</strong><a href="tel:+32492446019">0492 44 60 19</a></div>
+  <div><strong>Edin Ikeljic</strong><a href="tel:+32489145985">0489 14 59 85</a></div>
+</div>
+<div class="wrap copyright">© <span id="year"></span> Students4U</div>
+</footer><script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.links').classList.remove('open')));</script></body></html>
