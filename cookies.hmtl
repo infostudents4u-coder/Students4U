@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Lees het cookiebeleid van Students4U en ontdek hoe onze website cookies en vergelijkbare technologieën gebruikt.">
+
+  <meta name="theme-color" content="#101d38">
+
+  <title>Cookiebeleid | Students4U</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7fb;
+      color: #26334a;
+      line-height: 1.75;
+    }
+
+    header {
+      background: #101d38;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .logo {
+      color: #ffffff;
+      font-size: 26px;
+      font-weight: 800;
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #a9c5ff;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #101d38, #1c345b);
+      color: #ffffff;
+      text-align: center;
+      padding: 75px 20px;
+    }
+
+    .hero .eyebrow {
+      color: #a9c5ff;
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 {
+      font-size: clamp(30px, 5vw, 43px);
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      color: #d0d9e9;
+      font-size: 16px;
+    }
+
+    .container {
+      max-width: 940px;
+      margin: 50px auto 70px;
+      padding: 0 22px;
+    }
+
+    .content {
+      background: #ffffff;
+      padding: 48px;
+      border-radius: 16px;
+      box-shadow: 0 8px 35px rgba(16, 29, 56, 0.06);
+    }
+
+    .date {
+      color: #8490a3;
+      font-size: 13px;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e8edf4;
+    }
+
+    h2 {
+      color: #142747;
+      font-size: 21px;
+      margin: 34px 0 12px;
+      line-height: 1.4;
+    }
+
+    h2:first-of-type {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 14px;
+      font-size: 15px;
+      color: #4c586c;
+    }
+
+    ul {
+      padding-left: 24px;
+      margin: 12px 0 18px;
+    }
+
+    li {
+      color: #4c586c;
+      font-size: 15px;
+      margin-bottom: 7px;
+    }
+
+    .info-card {
+      background: #f1f5fb;
+      border-left: 4px solid #315caa;
+      padding: 20px 23px;
+      border-radius: 7px;
+      margin: 20px 0;
+    }
+
+    .info-card p {
+      margin-bottom: 5px;
+    }
+
+    .info-card strong {
+      color: #142747;
+    }
+
+    a {
+      color: #315caa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #101d38;
+      color: #ffffff;
+      padding: 42px 8% 25px;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .footer-slogan {
+      color: #bdc9dc;
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 22px;
+      margin-bottom: 25px;
+    }
+
+    .footer-links a {
+      color: #d5e1fa;
+      font-size: 14px;
+    }
+
+    .copyright {
+      border-top: 1px solid #35445f;
+      padding-top: 20px;
+      color: #aebbd0;
+      font-size: 12px;
+    }
+
+    @media (max-width: 650px) {
+      header {
+        justify-content: center;
+        padding: 20px;
+      }
+
+      nav {
+        justify-content: center;
+        gap: 14px;
+      }
+
+      .hero {
+        padding: 55px 20px;
+      }
+
+      .content {
+        padding: 25px 21px;
+      }
+
+      .container {
+        margin-top: 30px;
+      }
+
+      h2 {
+        font-size: 19px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <a href="index.html" class="logo">Students4U</a>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="over-ons.html">Over ons</a>
+    <a href="inschrijven.html">Inschrijven</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="eyebrow">Students4U · Transparantie</div>
+  <h1>Cookiebeleid</h1>
+  <p>Ontdek hoe wij cookies en vergelijkbare technologieën gebruiken.</p>
+</section>
+
+<main class="container">
+  <article class="content">
+
+    <p class="date">
+      Laatst bijgewerkt: 15 november 2026
+    </p>
+
+    <h2>1. Wat zijn cookies?</h2>
+
+    <p>
+      Cookies zijn kleine tekstbestanden die websites op uw computer,
+      tablet of smartphone kunnen opslaan. Ze kunnen ervoor zorgen
+      dat een website correct werkt, bepaalde voorkeuren onthoudt
+      of informatie verzamelt over het gebruik van de website.
+    </p>
+
+    <h2>2. Welke cookies en technologieën gebruiken wij?</h2>
+
+    <p>
+      Students4U gebruikt momenteel geen eigen analytische cookies
+      of advertentietrackers.
+    </p>
+
+    <p>
+      Onze website bevat een ingebed inschrijvingsformulier van
+      Google Forms. Wanneer dit formulier wordt geladen, kan uw
+      browser rechtstreeks verbinding maken met de servers van Google.
+    </p>
+
+    <p>
+      Google kan daarbij technische informatie verwerken en cookies
+      of vergelijkbare technologieën gebruiken, afhankelijk van
+      de gebruikte dienst en uw instellingen.
+    </p>
+
+    <div class="info-card">
+      <p><strong>Externe dienst:</strong> Google Forms</p>
+      <p><strong>Doel:</strong> Het aanbieden en verwerken van inschrijvingen.</p>
+      <p><strong>Website:</strong>
+        <a href="https://www.google.com/forms/about/"
+           target="_blank"
+           rel="noopener noreferrer">
+          Google Forms
+        </a>
+      </p>
+    </div>
+
+    <h2>3. Diensten van derden</h2>
+
+    <p>
+      Voor de verwerking van inschrijvingen maakt Students4U
+      gebruik van Google Forms.
+    </p>
+
+    <p>
+      Google kan bij het aanbieden van deze dienst eigen cookies
+      en vergelijkbare technologieën gebruiken. Het gebruik
+      daarvan valt mede onder het privacy- en cookiebeleid van Google.
+    </p>
+
+    <p>
+      Meer informatie vindt u via:
+      <a href="https://policies.google.com/privacy"
+         target="_blank"
+         rel="noopener noreferrer">
+        Google Privacybeleid
+      </a>.
+    </p>
+
+    <h2>4. Noodzakelijke en niet-noodzakelijke cookies</h2>
+
+    <p>
+      Niet alle cookies hebben hetzelfde doel.
+    </p>
+
+    <ul>
+      <li>
+        <strong>Noodzakelijke cookies:</strong>
+        deze zijn nodig om een website of bepaalde functies correct
+        te laten werken.
+      </li>
+      <li>
+        <strong>Analytische cookies:</strong>
+        deze kunnen worden gebruikt om inzicht te krijgen in
+        het gebruik van een website.
+      </li>
+      <li>
+        <strong>Marketingcookies:</strong>
+        deze kunnen worden gebruikt om bezoekers te volgen
+        en gerichte advertenties aan te bieden.
+      </li>
+    </ul>
+
+    <p>
+      Niet-noodzakelijke cookies en vergelijkbare technologieën
+      worden alleen gebruikt wanneer daarvoor geldige voorafgaande
+      toestemming is verkregen.
+    </p>
+
+    <h2>5. Toestemming en cookiebeheer</h2>
+
+    <p>
+      Strikt noodzakelijke cookies mogen zonder voorafgaande
+      toestemming worden gebruikt.
+    </p>
+
+    <p>
+      Voor niet-noodzakelijke cookies is voorafgaande,
+      geldige toestemming vereist.
+    </p>
+
+    <p>
+      Wanneer uit een technische controle blijkt dat het
+      ingebedde Google Forms-formulier dergelijke technologieën
+      gebruikt, voorziet Students4U passende toestemmingsmogelijkheden
+      voordat deze technologieën worden geladen.
+    </p>
+
+    <p>
+      U kunt cookies bovendien beheren of verwijderen via
+      de instellingen van uw internetbrowser.
+    </p>
+
+    <h2>6. Bewaartermijnen</h2>
+
+    <p>
+      De bewaartermijn van cookies verschilt per cookie en
+      dienst. Sommige cookies worden verwijderd zodra u uw
+      browser sluit, terwijl andere langer op uw apparaat
+      kunnen blijven staan.
+    </p>
+
+    <p>
+      De exacte bewaartermijnen zijn afhankelijk van de
+      gebruikte technologie en moeten worden vastgesteld
+      aan de hand van de technische controle van de website
+      en de externe diensten.
+    </p>
+
+    <h2>7. Wijzigingen in dit cookiebeleid</h2>
+
+    <p>
+      Students4U kan dit cookiebeleid aanpassen wanneer het
+      gebruik van cookies, technologieën of externe diensten
+      verandert.
+    </p>
+
+    <p>
+      Wanneer in de toekomst analytische of advertentietrackers
+      worden toegevoegd, wordt de nodige informatie en
+      toestemmingsmogelijkheid voorzien.
+    </p>
+
+    <h2>8. Contact</h2>
+
+    <p>
+      Voor vragen over cookies of de verwerking van
+      persoonsgegevens kunt u contact opnemen met
+      Students4U.
+    </p>
+
+    <div class="info-card">
+      <p><strong>Students4U</strong></p>
+      <p><strong>Verantwoordelijken:</strong>
+        Ilyas El Fadili en Edin Ikeljic
+      </p>
+      <p><strong>E-mail:</strong>
+        <a href="mailto:info@students4u.be">
+          info@students4u.be
+        </a>
+      </p>
+      <p><strong>Website:</strong>
+        <a href="https://students4u.be">
+          students4u.be
+        </a>
+      </p>
+    </div>
+
+  </article>
+</main>
+
+<footer>
+  <div class="footer-logo">Students4U</div>
+
+  <p class="footer-slogan">
+    Jouw potentieel, onze begeleiding!
+  </p>
+
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="over-ons.html">Over ons</a>
+    <a href="inschrijven.html">Inschrijven</a>
+    <a href="privacy.html">Privacyverklaring</a>
+    <a href="cookies.html">Cookiebeleid</a>
+  </div>
+
+  <div class="copyright">
+    © 2026 Students4U. Alle rechten voorbehouden.
+  </div>
+</footer>
+
+</body>
+</html>
