@@ -112,3 +112,17 @@ footer{background:#050e23;color:#aab8d0;padding:30px 0;font-size:11px}.foot{disp
 .founders-cta h2{margin:0 0 6px;color:#fff;font-size:clamp(21px,2.5vw,28px);}
 .founders-cta p{margin:0;color:#c5d1e7;font-size:13px;line-height:1.65;}
 @media(max-width:700px){.founders-section{padding:52px 0 46px}.founders-showcase{grid-template-columns:1fr;gap:20px}.founder-profile{max-width:420px;margin:0 auto}.founder-photo{width:260px;height:298px}.founders-cta{margin-top:24px;padding:22px;align-items:flex-start;flex-direction:column}}
+
+/* Blauwe labels op de pagina Aanbod */
+.cards .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-width: 0;
+  height: auto;
+  padding: 12px 18px;
+  white-space: nowrap;
+  border-radius: 14px;
+  font-size: 22px;
+}
