@@ -17,7 +17,9 @@ footer{background:#050e23;color:#aab8d0;padding:30px 0;font-size:11px}.foot{disp
 /* Heldere cijfers, zonder de resultaten groter voor te stellen dan ze zijn. */
 .facts-section{background:#fff}
 .facts-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.fact-card{border:1px solid var(--line);border-radius:16px;padding:25px;background:#fbfdff}
+
+.fact-card{border:1px solid var(--line);border-radius:16px;padding:32px;background:#fbfdff;min-height:280px;display:flex;flex-direction:column;justify-content:center}
+
 .fact-number{font:800 clamp(30px,4vw,42px) Manrope,sans-serif;color:var(--navy);letter-spacing:-1.5px;margin-bottom:12px}
 .fact-card h3{font-size:16px;line-height:1.45;letter-spacing:-.3px;color:var(--navy);margin:0 0 9px}
 .fact-card p{font-size:13px;line-height:1.75;color:var(--muted);margin:0}
