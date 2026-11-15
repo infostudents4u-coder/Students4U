@@ -20,7 +20,20 @@ footer{background:#050e23;color:#aab8d0;padding:30px 0;font-size:11px}.foot{disp
 
 .fact-card{border:1px solid var(--line);border-radius:16px;padding:32px;background:#fbfdff;min-height:400px;display:flex;flex-direction:column;justify-content:center}
 
-.fact-number{font:800 clamp(30px,4vw,42px) Manrope,sans-serif;color:var(--navy);letter-spacing:-1.5px;margin-bottom:12px}
+.fact-number {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  max-width: 100%;
+  padding: 12px 18px;
+  border-radius: 14px;
+  background: #e8f5ff;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 18px;
+}
+
 
 .fact-card h3 {
   display: inline-block;
